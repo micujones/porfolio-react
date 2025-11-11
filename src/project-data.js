@@ -180,7 +180,7 @@ export const projectData = [
         description:
             'Angular application for viewing movie details from movie API and tracking favorites.',
         image: mwlThumbnail,
-        liveLink: 'https://micujones.github.io/mostwatchedlist-Angular-client/',
+        liveLink: 'https://most-watched-list.firebaseapp.com/welcome',
         githubLink:
             'https://github.com/micujones/mostwatchedlist-Angular-client',
         tools: [
