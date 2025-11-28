@@ -1,15 +1,31 @@
-.navbar {
-    opacity: 95%;
+.navbar,
+.offcanvas {
+    opacity: 98%;
     color: var(--clr-primary-a50);
 }
 
 .navbar-menu {
     width: 100%;
     justify-content: center;
+    gap: 16px;
 }
 
-@media (min-width: 800px) {
-    .navbar-menu {
-        gap: 16px;
+.offcanvas-title {
+    font-size: 24px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.active {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .offcanvas {
+        padding: 15px 0;
+        font-size: 21px;
+        font-weight: 300;
     }
 }
