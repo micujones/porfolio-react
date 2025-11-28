@@ -45,7 +45,7 @@ export const NavbarView = () => {
                                     className={({ isActive }) =>
                                         isActive ? 'active' : ''
                                     }
-                                    onClick={handleShowOffcanvas}
+                                    onClick={show && handleShowOffcanvas}
                                 >
                                     Home
                                 </NavLink>
@@ -56,7 +56,7 @@ export const NavbarView = () => {
                                     className={({ isActive }) =>
                                         isActive ? 'active' : ''
                                     }
-                                    onClick={handleShowOffcanvas}
+                                    onClick={show && handleShowOffcanvas}
                                 >
                                     Work
                                 </NavLink>
@@ -67,7 +67,7 @@ export const NavbarView = () => {
                                     className={({ isActive }) =>
                                         isActive ? 'active' : ''
                                     }
-                                    onClick={handleShowOffcanvas}
+                                    onClick={show && handleShowOffcanvas}
                                 >
                                     Contact
                                 </NavLink>
@@ -78,7 +78,7 @@ export const NavbarView = () => {
                                     className={({ isActive }) =>
                                         isActive ? 'active' : ''
                                     }
-                                    onClick={handleShowOffcanvas}
+                                    onClick={show && handleShowOffcanvas}
                                 >
                                     About
                                 </NavLink>
